@@ -1,0 +1,176 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/backgroundpattern.png);
+	background-size: 8px 8px;
+	background-repeat: repeat;
+	font-family: 'Roboto', sans-serif;
+	color: #313131;
+}
+
+.header{
+	background-image: url(../img/header.png);
+	width: 100%;
+	float: left;
+	height: 540px;
+	border-radius: 190px 190px 0 0;
+	background-size: cover;
+
+
+
+
+}
+
+.gallery-container{
+	padding: 15px 0 15px 15px;
+width: 304px;
+float: left;
+	-webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.08);
+	-moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.08);
+	box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.08);
+
+}
+
+.gallery{
+	padding: 15px;
+	background: white;
+	width: 304px;
+	float: left;
+}
+
+.header-container{
+	padding: 15px;
+	
+	width: 100%;
+
+}
+
+
+
+#img1{
+	background-image: url(../img/img1.gif);
+}
+
+#img2{
+	background-image: url(../img/img2.png);
+}
+
+#img3{
+	background-image: url(../img/img3.png);
+}
+
+#img4{
+	background-image: url(../img/img4.png);
+}
+
+#img5{
+	background-image: url(../img/img5.png);
+}
+
+#img6{
+	background-image: url(../img/img6.png);
+}
+
+#img7{
+	background-image: url(../img/img7.png);
+}
+
+#img8{
+	background-image: url(../img/img8.jpg);
+}
+
+#img9{
+	background-image: url(../img/img9.png);
+}
+
+#img10{
+	background-image: url(../img/img10.png);
+}
+
+#img11{
+	background-image: url(../img/img11.png);
+}
+
+#img12{
+	background-image: url(../img/img12.png);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+   .gallery-container{
+	width: 100%;
+	padding-left: 15px;
+	float: left;
+   }
+
+  .gallery{
+	width: 100%;
+	overflow:scroll;
+  } 
+
+.gallery-images{
+	    width: 945px;
+	left: 0;
+	float: left;
+	padding: 0 !important;
+	margin: 0 !important;
+
+
+}
+
+.galimg{
+	height: 200px;
+	width: 300px;
+	background-size: cover !important;
+	background-position: center !important;
+	background: #dedee2;
+	float: left;
+	margin-right: 15px;
+	display: inline;
+	border: 1px solid #f1f1f1;
+}
+
+.gallery-title{
+width: 100%;
+/*height: 48px;*/
+padding-bottom: 15px;
+float: left;
+background-color:white;
+	text-align: center;
+}
+
+.gallery-title > span {
+	letter-spacing: 3.1px;
+	font-size: 20px;
+
+}
+
+.title{
+	float:left;
+	padding-left: 15px;
+}
+.go{
+	float:right;
+	padding-right: 15px;
+}
+.g-wrap{
+	border: 1px solid #e4e4e4;
+	    margin-bottom: 15px;
+    overflow: auto;
+			-webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.08);
+	-moz-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.08);
+	box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.08);
+}
+
+.body{
+
+}
+
+
+
+}
